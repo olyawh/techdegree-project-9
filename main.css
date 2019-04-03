@@ -1,0 +1,153 @@
+.img-fluid {
+    max-width: 20%;
+}
+
+
+
+/*nav*/
+
+.navbar {
+   background-color: #ffbfc0;
+}
+
+/*letters*/
+
+.letters {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  
+    color: #383838;
+  }
+  
+  .letters .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+/*jumbotron*/
+
+.jumbotron {
+  height: 100vh;
+}
+
+  .jumbotron h1
+   {
+      margin-top: 125px;
+  }
+
+  .jumbotron p {
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+
+.jumbotron a {
+  margin-left: 30px;
+}
+
+/*footer*/
+small {
+  float: right;
+  margin-top: -30px;
+}
+  
+  /* Overlay */
+  
+#overlay {
+  background-image: url("img/bg_ph.png");
+}
+
+
+@media (min-width: 320px){
+  #overlay {
+    margin-right: -45px;
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-right: -45px;
+  }
+}
+
+/*icons*/
+
+#html,
+#css,
+#js {
+  width: 11%;
+}
+
+.icon {
+  float: right;
+
+}
+
+.path {
+  fill: white;
+}
+
+.path:hover {
+  fill: #383838;
+  transition: ease-in-out .3s;
+}
+
+.svgs:hover {
+  fill: white;
+  transition: ease-in-out .3s;
+}
+
+
+/*button*/
+.start-button {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  border-radius: 50%;
+  transition: ease-in-out 0.3s;
+  box-shadow: 2px 1px 5px 1px grey;
+
+
+}
+
+/* media queries*/
+
+@media (min-width: 768px){
+  /*icons*/
+#html,
+#css,
+#js {
+  width: 30%;
+}
+
+  .letters{
+  font-size: 4em;
+  }
+  .jumbotron p {
+    margin-left: 0;
+  }
+  .jumbotron a {
+    margin-left: 0;
+  }
+
+  small {
+   margin-top: 0;
+  }
+  #overlay {
+    margin-right: -45px;
+    margin-left: 0;
+  }
+  
+}
+
+@media (min-width: 1024px){
+  #html,
+  #css,
+  #js {
+    width: 45%;
+  }
+    .letters{
+  font-size: 6em;
+    }
+}
